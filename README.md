@@ -3,8 +3,8 @@
 Author - rakshxt <br>
 OS     - Fedora Linux 39
 
--  C++
-  -  DSA
-    -  CP
+1-  C++
+  2-  DSA
+    3-  CP
 
 Enjoy throughout the whole journey
