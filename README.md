@@ -1,10 +1,6 @@
 **ah shit, here we go again**
 
 Author - rakshxt <br>
-OS     - Fedora Linux 39
-
-1-  C++
-  2-  DSA
-    3-  CP
+OS     - Fedora Linux 39<br>
 
 Enjoy throughout the whole journey
