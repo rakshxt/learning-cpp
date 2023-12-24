@@ -1,4 +1,7 @@
 /*
+    A data is any information that can be moved, processed and stored by the computer
+    a single peice of data is called a value
+
     object is a memory location or it can be thought of as a region in a memory(likely to be RAM)
     an object is used to store and retrive values from the memory
     pros: rather than to recall the memory address, we just needa call the object to retrive the value that we desire
