@@ -11,11 +11,12 @@
  * now we are going to define the main() function of the program and note that main function is the foremost important function of any .cpp file
  * always the execution starts from the main function and ends at the last line of the main function
  * {} these denotes the statements that are inside of the main function
-*/
-int main(){  // start of the function "main", every statement to be executed when main is called is written inside the {}
-    std::cout<<"Hello, World!\n";  // this statement is responsible for producing output in the sytstem console/terminal or ide/editor terminal
+ */
+
+int main(){                                   // start of the function "main", every statement to be executed when main is called is written inside the {}
+    std::cout << "Hello, World!\n"; // this statement is responsible for producing output in the sytstem console/terminal or ide/editor terminal
 
     // we needa tell the os that whether or not program went well, so we are returning "0" (means everything went fine) to the os
-    return 0;  // returns value "0" to the os, indicating everything went well
-    
+    return 0; // returns value "0" to the os, indicating everything went well
+
 } // end of the main function

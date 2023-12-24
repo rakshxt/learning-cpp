@@ -1,5 +1,5 @@
 // commenting out the preprocessor statement because i dont really want to execute this program
-// #include <iostream> 
+// #include <iostream>
 
 int main(){
     /*
@@ -12,13 +12,16 @@ int main(){
 
     */
 
-   // this is a single line comment
-   // use this comment in the times when explaining why a statement is doing "something"
-   // like set x=0  (explain why we are setting x=0)
+    // this is a single line comment
+    // use this comment in the times when explaining why a statement is doing "something"
+    // like set x=0  (explain why we are setting x=0)
 
-   /*   
-        This is a multi line comment is basically used when we gotta comment out a large number of lines 
-        NOTE: multiline comments cannot be nested however we can use single line comments inside a multiline comment
-        // ex
-   */
+    // we will likely not be telling why the variable, function or anything else is doing what it is doing
+    // instead we will define what the variable, function, etc will be doing
+
+    /*
+         This is a multi line comment is basically used when we gotta comment out a large number of lines
+         NOTE: multiline comments cannot be nested however we can use single line comments inside a multiline comment
+         // ex
+    */
 }

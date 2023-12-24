@@ -1,4 +1,0 @@
-** our computer program is a utility that tells the computer to do something
-** a program consists of various instructions (inside itself) that tells the computer to do something
-** one such instruction of the program is called a statement
-** a set of statement grouped in a single unit (to be executed sequentially) is called a function

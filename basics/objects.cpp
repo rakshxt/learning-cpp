@@ -10,7 +10,7 @@ int main(){
     // creating a variable named "x" that will be getting some "memory address" in my RAM(like 140)
     // then everytime it is reffered or called in the program, compiler will retrive value from the memory location(140)
 
-    int x;  //instantiation/definition/(defining a variable)
+    int x; // instantiation/definition/(defining a variable)
 
     // during compilation, an object will be instantiated (process-instantiation) and given some memory region and then value stored in the region will be called everytime we call the object/variable
 }

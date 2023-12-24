@@ -1,7 +1,7 @@
 # **Learning C++**
 
 ## Info
-- Author - rakshxt <br>
+- Author - [rakshxt](https://i.pinimg.com/originals/32/6b/92/326b92c6abf815cc8afdf3d8b4b6bcbc.jpg) <br>
 - OS     - [Fedora](https://fedoraproject.org/) <br>
 
 - Resource
@@ -11,4 +11,4 @@
     -   [VS CODE](https://code.visualstudio.com/)
     -   [VIM](https://www.vim.org/)
 - Compiler
-    -   [gnu](www.gnu.org)
+    -   [gnu](https://gcc.gnu.org/)
