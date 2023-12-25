@@ -2,7 +2,7 @@
 
 ## Info
 - Author - [rakshxt](https://i.pinimg.com/originals/32/6b/92/326b92c6abf815cc8afdf3d8b4b6bcbc.jpg) <br>
-- OS     - [Fedora](https://fedoraproject.org/) <br>
+- OS     - [Debian](https://www.debian.org/) <br>
 
 - Resource
     -   [learncpp.com](https://www.learncpp.com/) 
