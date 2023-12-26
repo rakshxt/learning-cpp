@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 
-int getUserInput(){
+int getRadius(){
 
     int input{}; // to store the user-input initially
 
@@ -14,7 +14,7 @@ int getUserInput(){
 
 int main(){
 
-    int num{getUserInput()};
+    int num{getRadius()};
 
     std::cout << "(" << num << ")² = " << (num * num) << std::endl;
 

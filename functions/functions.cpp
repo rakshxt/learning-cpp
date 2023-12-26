@@ -2,13 +2,13 @@
 
 /*
     A function is nothing but a reusable "sequence", "collection" or "group" of statements that is designed to perform a specific task
-    ex: to print something, to add two number, etc
+    ex: to print something, to add two number, to take user input and return it to caller function, etc
 
     Why do we use functions??
         We use functions to divide our program into "modular chunks" or "segments" in order to not to make the whole program look complex
     
-    function cal :
-        A function is an expression that terminates(or halts/stops) the execution of the current function statements and starts executing of the function that is called
+    function call :
+        A function call is an expression that terminates(or halts/stops) the execution of the current function statements and starts executing of the function that is called
     We always "call" a function from one function(probably "main()") in order to execute that function
     The function calling another function is called the "caller" and the function getting called is called "calle" or "called function"
 
@@ -43,3 +43,7 @@ int main(){
 
     return 0;
 }
+
+
+// NOTE : C++ does not allows the "main" function to be called explicitly, only the operating system makes a function call to the "main" function
+// as usual main function also returns an integer value(purposely called a "status code")
