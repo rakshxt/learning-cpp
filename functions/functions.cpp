@@ -13,7 +13,7 @@
     The function calling another function is called the "caller" and the function getting called is called "calle" or "called function"
 
     basic definition style :
-            returnType functionIdentifier(){    // header of the function
+            returnType functionIdentifier(){    // header of the function or just function header
 
                 ...                             // statements to be executed (defines the job of the function)
             

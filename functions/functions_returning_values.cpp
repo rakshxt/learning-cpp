@@ -3,7 +3,7 @@
 /*
     Return value : a return value is a "literal value" that is returned by the called function to the caller function for further use
 
-    in order to return some value from the function, we should first define the functions return type
+    in order to return some value from the function, we should first define the function's return type
     and then use a return statement to return some value
         returnType functionIdentifier(){
             ...
