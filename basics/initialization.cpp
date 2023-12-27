@@ -8,7 +8,8 @@
  * the value given to the variable during initialization is called an initializer
  */
 
-int main(){
+int main()
+{
 
     // default initialization -- no initializer -- discarded
     int x; // no value assigned

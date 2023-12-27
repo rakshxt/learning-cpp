@@ -12,7 +12,8 @@
  * std::endl functionality adds a newline and also flushes the buffer (in-necessarily)
  */
 
-int main(){
+int main()
+{
 
     std::cout << "xyz"; // first output to be stored in the buffer
     std::cout << std::endl

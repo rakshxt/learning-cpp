@@ -1,7 +1,8 @@
 // commenting out the preprocessor statement because i dont really want to execute this program
 // #include <iostream>
 
-int main(){
+int main()
+{
     /*
         Comments are basically "lines" in a source code that are always ignored by the compiler (like my whishes gets ignored by my fam)
         The most general motion/use of comments is to make the programmer understand "what", "how" and "why" of the specific parts of the program

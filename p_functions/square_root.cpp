@@ -1,7 +1,8 @@
 #include <iostream>
 #include <cstdlib>
 
-int getRadius(){
+int getRadius()
+{
 
     int input{}; // to store the user-input initially
 
@@ -11,8 +12,8 @@ int getRadius(){
     return input;
 }
 
-
-int main(){
+int main()
+{
 
     int num{getRadius()};
 

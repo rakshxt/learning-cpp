@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main(){
+int main()
+{
 
     // variable to store the user input
     int userInput{};

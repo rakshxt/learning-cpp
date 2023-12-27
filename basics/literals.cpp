@@ -13,7 +13,8 @@
  * on the other hand values of a variables are stored in memories and hence the compiler gotta "fetch" those values from the desired memory locations
  */
 
-int main(){
+int main()
+{
 
 	std::cout << 10 << std::endl; // directly stored in the executable
 	int x{10};					  // assigned a memory location for variable "x" --> copied the literal value "10" and then stored in the memory location of "x"

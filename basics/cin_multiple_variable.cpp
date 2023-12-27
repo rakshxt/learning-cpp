@@ -12,7 +12,8 @@
 
 */
 
-int main(){
+int main()
+{
 
     int age{}, year_of_passing{};
 

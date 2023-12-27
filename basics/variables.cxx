@@ -2,7 +2,8 @@
 
 #include <iostream>
 
-int main(){
+int main()
+{
 
     // "defining" a variable named "radius" of "int" type
     int radius;

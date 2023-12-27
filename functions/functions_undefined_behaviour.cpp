@@ -8,16 +8,17 @@
     the only exception to this rule is for the function main which explicitly returns the value "0" even at the times when return statement is not provided
 */
 
-
 // expectation :: no return statement in function returning "non-void"
-int function(){
-    
+int function()
+{
+
     std::cout << "i was supposed to return some int value, but fuck it, i aint gonna do nothing" << std::endl;
 
     // no return statement provided
 }
 
-int main(){
+int main()
+{
     int x{function()};
 
     std::cout << x << std::endl;

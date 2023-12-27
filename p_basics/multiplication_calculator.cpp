@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main(){
+int main()
+{
 
     // userInput1, userInput2
     int uI1{}, uI2{}, result{0};
@@ -10,10 +11,10 @@ int main(){
     std::cin >> uI1;
     std::cout << uI1 << " x ? : ";
     std::cin >> uI2;
-    
+
     result = uI1 * uI2; // expression for computation of multiplication
-    std::cout << uI1 << " x " << uI2 << " = " << result 
-    << std::endl;
+    std::cout << uI1 << " x " << uI2 << " = " << result
+              << std::endl;
 
     return 0;
 }

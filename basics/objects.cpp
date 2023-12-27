@@ -9,7 +9,8 @@
     a named object (an object with and identifier(name)) is called a variable
 */
 
-int main(){
+int main()
+{
     // creating a variable named "x" that will be getting some "memory address" in my RAM(like 140)
     // then everytime it is reffered or called in the program, compiler will retrive value from the memory location(140)
 

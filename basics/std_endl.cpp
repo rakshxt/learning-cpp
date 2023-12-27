@@ -2,7 +2,8 @@
 
 // std::endl vs '\n'
 
-int main(){
+int main()
+{
 
     // std::cout << "Hello, Rakshit" << std::endl;
     // std::cout << "Welcome to the world of C++" << std::endl;

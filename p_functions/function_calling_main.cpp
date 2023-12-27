@@ -4,8 +4,9 @@
 #include <iostream>
 #include <cstdlib>
 
-void call(){
-    std::cout << main() << std::endl;   
+void call()
+{
+    std::cout << main() << std::endl;
     /*
          error : main was not declared in this scope
          understanding ::
@@ -13,7 +14,8 @@ void call(){
     */
 }
 
-int main(){
+int main()
+{
     call();
     return EXIT_SUCCESS;
 }

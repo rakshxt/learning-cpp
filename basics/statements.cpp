@@ -14,7 +14,8 @@ int addNumbers(); // a function to calculate two or more numbers;
 
 // the most important function in a .cpp file is the main function. Execution of every .cpp program starts from the main function
 // we provide statements to be executed in the main function
-int main(){
+int main()
+{
 
     std::cout << "..\n";         // statement -- telling the computer to print ".." in the console screen
     int x{};                     // initialization statement -- telling the computer to allocate a memory region for a variable named "x" and assign value 0

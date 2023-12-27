@@ -9,7 +9,8 @@
  * keyword-keyword or identifier-identifier should be separated by white-space
  */
 
-int main(){
+int main()
+{
 
     // error producing code
     // std::cout << "Hello

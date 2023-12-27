@@ -13,7 +13,7 @@
             subexpressions :        expressions used as operands
                 ex: int x = 2+3;
 
-            full expressions :      expressions that are not used as operands 
+            full expressions :      expressions that are not used as operands
                 ex: 2+3; and also expression statements are full expressions
 
             compound expressions :  expressions that have two or more operands
@@ -21,18 +21,19 @@
 
 */
 
-int main(){
+int main()
+{
 
-    2+3; // valid but useless expression
+    2 + 3; // valid but useless expression
     int x{}, y{};
-    y=19; // expression statement
+    y = 19; // expression statement
 
-    x=(y-9)*10;  // expression statement
-    [[maybe_unused]] int z = x - 100; // statement with expression 
-    
+    x = (y - 9) * 10;                 // expression statement
+    [[maybe_unused]] int z = x - 100; // statement with expression
+
     std::cout << x << std::endl;
-    std::cout << (y-9) << std::endl;  // expression statament (as because std::cout and std::endl is considered as operands)
+    std::cout << (y - 9) << std::endl; // expression statament (as because std::cout and std::endl is considered as operands)
     std::cout << z << std::endl;
-    
+
     return 0;
 }

@@ -14,7 +14,8 @@
     we will always get the value that was previously stored in the memory location which the variable is now assigned to.
 */
 
-int main(){
+int main()
+{
 
     int x, y;                            // these variables would be left undefined for most of the times
     std::cout << x << ", " << y << '\n'; // we are using uninitialized variables and this will produce undefined behaviour

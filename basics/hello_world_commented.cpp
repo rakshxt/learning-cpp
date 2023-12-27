@@ -13,7 +13,8 @@
  * {} these denotes the statements that are inside of the main function
  */
 
-int main(){                                   // start of the function "main", every statement to be executed when main is called is written inside the {}
+int main()
+{                                   // start of the function "main", every statement to be executed when main is called is written inside the {}
     std::cout << "Hello, World!\n"; // this statement is responsible for producing output in the sytstem console/terminal or ide/editor terminal
 
     // we needa tell the os that whether or not program went well, so we are returning "0" (means everything went fine) to the os

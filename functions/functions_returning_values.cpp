@@ -15,7 +15,8 @@
     this process is called "return-by-value"
 */
 
-int getInput(){
+int getInput()
+{
 
     int input{};
     std::cout << "enter a number : ";
@@ -24,7 +25,8 @@ int getInput(){
     return input; // returns the user input to the caller function ("main()")
 }
 
-int main(){
+int main()
+{
 
     int value{getInput()}; // variable that will store the returning value of getInput function
     std::cout << value << " x 2 = " << (value * 2) << std::endl;

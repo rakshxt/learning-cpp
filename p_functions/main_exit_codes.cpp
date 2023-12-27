@@ -1,4 +1,4 @@
-#include <cstdlib>  // for EXIT_SUCCESS and EXIT_FAILURE
+#include <cstdlib> // for EXIT_SUCCESS and EXIT_FAILURE
 #include <iostream>
 
 /*
@@ -9,7 +9,8 @@
         EXIT_FAILURE for "1"      (unsuccessful execution of the program)
 */
 
-int main(){
+int main()
+{
     std::cout << "exited with code=0";
     return EXIT_SUCCESS;
 }

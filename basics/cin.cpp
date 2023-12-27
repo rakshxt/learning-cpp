@@ -10,7 +10,8 @@
  *              std::cin >> x;           // this means that the user entered value would be moved to the variable named "x"
  */
 
-int main(){
+int main()
+{
 
     // variable defined to store input from the user
     int age{};

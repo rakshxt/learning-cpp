@@ -1,6 +1,7 @@
 // #include <iostream>  // we dont want to use the std::cout or std::cin functionality
 
-int main(){
+int main()
+{
 
     // all the following variables are "different" as because c++ is case sensitive(distinguishes between lower and upper case characters/words)
     [[maybe_unused]] int value; // conventional
