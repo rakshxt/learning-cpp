@@ -1,6 +1,11 @@
 #include <iostream>
 #include <cstdlib>
 
+/*
+    we know can use value-returning function in any valid statement or expression
+    a value-returning function with parameter(s) takes arguments from the caller and then work upon it(some sort of calculation and shit) and then "returns" a value
+*/
+
 int add(int x, int y)
 {
     return (x + y);
@@ -8,7 +13,7 @@ int add(int x, int y)
 
 int multiply(int a, int b)
 {
-    return a * b;
+    return (a * b);
 }
 
 int main()
