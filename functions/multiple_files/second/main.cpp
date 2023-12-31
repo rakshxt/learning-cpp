@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 
-int getInteger(); // tells the compiler that this function is defined somewhere else(in this case --> in some other source file)
+int getInteger(); // tells the compiler that this function is defined in some other part of the program(in this case --> in some other source file)
 
 int main(){
 
