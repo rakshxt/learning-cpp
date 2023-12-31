@@ -1,0 +1,1 @@
+void getResult(unsigned short, int, int);
