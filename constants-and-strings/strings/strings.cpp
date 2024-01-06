@@ -12,6 +12,17 @@
     constexpr std::string is not allowed/supported till C++17 and earlier
 */
 
+/*
+    std::string should not be used in constexpr expression or instantiation
+    std::string should not be used as a return type of a function as it would just make expensive copies
+        --though it could be in the times:
+                    -when returning local std::string variable
+                    -when returning statement contains initialization of a new std::string
+                    -when return statement returns the std::string returned from another function call or operation
+
+    conclusion ::  literals std::string makes expensive copies and hence should be avoided from use, where performance matters
+*/
+
 // to flush the input buffer
 [[maybe_unused]] void flushINP_BUFF(){std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');}
 // we wont be in need of std::cin >> std::ws
