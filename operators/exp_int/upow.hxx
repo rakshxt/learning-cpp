@@ -1,3 +1,5 @@
+//TODO: repair this shit, and remove from operators directory, rather make a new directory for my-own-defined headers
+
 #ifndef INT_POW_OWN
     #define INT_POW_OWN
     #include <cstdint>
@@ -21,18 +23,21 @@
     }
 
     long double powDouble(long double ldbase, long double ldexp){
+        std::int_fast64_t temp{ldbase};
         if (ldexp==0){
             return 1;
         }else if (ldexp==1){
             return ldbase;
         }else{
             if (ldexp > 0){
-                std::int_fast64_t temp{ldbase};
                 for (int i=1; i<ldexp ; i++){
                     ldbase *= temp;
                 }
             }else{
-                // further-modification for -ve exp
+                for (int i=1; i<(-ldexp) ; i++){
+                    ldbase *= temp;
+                }
+                ldbase=1.0/ldbase;
             }
         }
         return ldbase;
